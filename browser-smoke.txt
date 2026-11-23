@@ -1,0 +1,3 @@
+desktop viewport 1440x900: PASS; 13 slides; next/prev; menu/jump; tab switch; 27 evidence entries; quiz wrong/right/reset; no JS errors; no horizontal overflow
+ipad viewport 1024x768: PASS; 13 slides; next/prev; menu/jump; tab switch; 27 evidence entries; quiz wrong/right/reset; no JS errors; no horizontal overflow
+mobile viewport 390x844: PASS; 13 slides; next/prev; menu/jump; tab switch; 27 evidence entries; quiz wrong/right/reset; no JS errors; no horizontal overflow

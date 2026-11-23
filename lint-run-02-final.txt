@@ -1,0 +1,5 @@
+Zebrafish Wiki lint | scope=final | sources=6 | claims=27 | checked_files=72
+PASS checks: 361; FAIL checks: 0; WARN notes: 2
+WARN 程式只檢查結構、來源路徑、引用對應與 HTML 元件，不取代全文科學獨立審核。
+WARN Safari 實機驗收仍由使用者完成；本機 Chromium 模擬 iPad/手機不等於實機 Safari。
+RESULT: PASS (automated checks only)

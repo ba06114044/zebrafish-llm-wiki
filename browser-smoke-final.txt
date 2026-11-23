@@ -1,0 +1,16 @@
+desktop now slide 8
+desktop step quiz
+desktop quiz success
+desktop done
+ipad now slide 8
+ipad step quiz
+ipad quiz success
+ipad done
+mobile now slide 8
+mobile step quiz
+mobile quiz success
+mobile done
+desktop viewport 1440x900: PASS; 13 slides; next/prev; menu/jump; tab switch; 27 evidence entries; quiz wrong/right/reset; no JS errors; no horizontal overflow
+ipad viewport 1024x768: PASS; 13 slides; next/prev; menu/jump; tab switch; 27 evidence entries; quiz wrong/right/reset; no JS errors; no horizontal overflow
+mobile viewport 390x844: PASS; 13 slides; next/prev; menu/jump; tab switch; 27 evidence entries; quiz wrong/right/reset; no JS errors; no horizontal overflow
+

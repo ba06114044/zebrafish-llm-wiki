@@ -1,0 +1,4 @@
+Zebrafish LLM Wiki lint | scope=batch | sources=2 | claims=13 | wiki_notes=6
+PASS checks: 116; FAIL checks: 0; WARN notes: 1
+WARN 科學忠實度仍需按各項 locator 對照原文，程式 lint 不能代替獨立審稿。
+RESULT: PASS (batch scope only)

@@ -1,0 +1,9 @@
+PASS Table 1 casein percentages
+PASS Table 1 cellulose percentages
+PASS F1 inherits diet condition
+PASS Group-specific effects P generation p=0.003
+PASS Group-specific effects F1 generation p=0.002
+PASS P vs F1 PERMANOVA p=0.436
+PASS Microbiome sampling P n=2 per diet
+PASS Microbiome sampling F1 n=3 per diet
+SOURCE ANCHOR RESULT: 8 / 8 passed
