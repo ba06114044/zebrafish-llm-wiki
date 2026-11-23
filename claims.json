@@ -1,0 +1,222 @@
+{
+  "schema_version": "0.2",
+  "as_of": "2026-11-23",
+  "claims": [
+    {
+      "id": "C01",
+      "source_id": "S01",
+      "locator": "官網內文 §body，介紹魚與人器官之段落",
+      "kind": "background",
+      "statement": "斑馬魚屬脊椎動物，與人有若干同類器官，包括心臟、腦及腸道。",
+      "caveat": "器官相似不代表所有生理機制相同。"
+    },
+    {
+      "id": "C02",
+      "source_id": "S01",
+      "locator": "官網內文 §body，發育及透明度段落；§Why Study Zebrafish",
+      "kind": "background",
+      "statement": "斑馬魚在早期發育階段身體透明且發育快，有利於活體觀察器官形成。",
+      "caveat": "透明主要指早期胚胎／幼魚，不是所有成魚都透明。"
+    },
+    {
+      "id": "C03",
+      "source_id": "S01",
+      "locator": "官網內文 §body，基因與模式動物段落",
+      "kind": "background",
+      "statement": "NIH 科普文章表示斑馬魚與人類共享超過 70% 的基因，故適合研究部分生命機制。",
+      "caveat": "不能改寫成「70% DNA 序列相同」，也不能保證結果適用人體。"
+    },
+    {
+      "id": "C04",
+      "source_id": "S02",
+      "locator": "PDF p.2 Table 1；p.3 §2.1 Fish and feeding experiments",
+      "kind": "method",
+      "statement": "研究使用三種人工配方，蛋白質來源與纖維比例共同改變；casein/soybean meal 分別 27.5/20/5%，cellulose 分別 15/30/60%，順序為 carnivore/omnivore/herbivore。",
+      "caveat": "表中數字是各原料占飼料質量百分比，不能當作總粗蛋白百分比；無法隔離單一營養素效果。"
+    },
+    {
+      "id": "C05",
+      "source_id": "S02",
+      "locator": "PDF p.2 Fig.1；p.3 §2.1；p.4 §3 Results",
+      "kind": "method",
+      "statement": "研究比較祖先 A、親代 P、子代 F1，P 與 F1 分別維持相同三種實驗飲食，測量腸道型態、消化酵素與菌群。",
+      "caveat": "此處談的是實驗餵養與同一飲食條件的跨代觀察，不表示遺傳因素已被證明。"
+    },
+    {
+      "id": "C06",
+      "source_id": "S02",
+      "locator": "PDF p.4 §3 Results；p.6 Fig.4 caption",
+      "kind": "observation",
+      "statement": "P 與 F1 在相同飲食組內的菌群結構比較未達顯著差異（PERMANOVA p=0.436）。",
+      "caveat": "未達顯著不等於證明完全相同；微生物樣本量較小。"
+    },
+    {
+      "id": "C07",
+      "source_id": "S02",
+      "locator": "PDF p.4 §3 Results；p.6 Fig.4 caption",
+      "kind": "observation",
+      "statement": "三種飲食組別間的腸道菌群結構顯著不同，P 代 p=0.003，F1 代 p=0.002。",
+      "caveat": "比較的是菌群組成，不等於各組健康優劣。"
+    },
+    {
+      "id": "C08",
+      "source_id": "S02",
+      "locator": "PDF p.4 §3 Results；p.5 Fig.2 caption",
+      "kind": "observation",
+      "statement": "F1 雜食配方組的部分消化酵素活性較高；F1 高纖（herbivore）配方組的脂肪酶活性高於其他比較組。",
+      "caveat": "差異和實驗配方相伴，不能推論單一纖維或蛋白質成分必然造成變化。"
+    },
+    {
+      "id": "C09",
+      "source_id": "S02",
+      "locator": "PDF p.4 §3 Results；p.4 Table 2",
+      "kind": "observation",
+      "statement": "相同飲食條件下，P 與 F1 的腸長、腸重與酵素活性比較未發現顯著代際差異。",
+      "caveat": "同一組的代際比較，不是宣稱不同飲食組彼此沒有差別。"
+    },
+    {
+      "id": "C10",
+      "source_id": "S02",
+      "locator": "PDF p.3 §2.3 Gut microbiome sample processing；p.6 Fig.3–4 caption；p.8 Discussion",
+      "kind": "limitation",
+      "statement": "菌相分析共 18 份腸道樣本：A 3、P 代每配方 2、F1 代每配方 3；作者承認微生物分析樣本較少。",
+      "caveat": "統計推論需審慎，不能宣稱所有斑馬魚個體皆相同。"
+    },
+    {
+      "id": "C11",
+      "source_id": "S02",
+      "locator": "PDF p.3 §2.1（無法測量個別消化率）；p.8 Discussion",
+      "kind": "limitation",
+      "statement": "研究採群養且無法量測各個體飼料消化率；作者提出需要更多世代、不同族群進行後續研究。",
+      "caveat": "不可由酵素活性或菌群組成直接推論實際養分吸收率。"
+    },
+    {
+      "id": "C12",
+      "source_id": "S02",
+      "locator": "PDF p.8 Discussion（herbivore diet microbiome 段落）",
+      "kind": "caution",
+      "statement": "高纖人工配方斑馬魚的菌相不同於其他配方，但並未形成與天然草食性魚類相同的菌相。",
+      "caveat": "「herbivore」是研究組名稱，不能認定斑馬魚已轉變自然食性。"
+    },
+    {
+      "id": "C13",
+      "source_id": "S02",
+      "locator": "PDF p.2 Table 1；p.3 §2.1",
+      "kind": "caution",
+      "statement": "本研究同時調整蛋白質原料比例與纖維添加量，因此可說「不同飲食配方與觀察結果相關」，不能單獨歸因於纖維或蛋白質。",
+      "caveat": "若需單獨辨識蛋白質或纖維的因果效果，應尋找獨立操控的研究設計。"
+    },
+    {
+      "id": "C14",
+      "source_id": "S03",
+      "locator": "Article Table 3: nutrient composition; §Materials and methods",
+      "kind": "method",
+      "statement": "2018 年研究的三種人工配方，總蛋白含量約為 40.51%、31.88%、8.46%，纖維素添加量分別 15%、30%、60%；脂質約 12%。",
+      "caveat": "三個營養配方同時改變多項成分；數值來自此研究 Table 3，不可把纖維素重量誤稱為完整膳食纖維攝取。"
+    },
+    {
+      "id": "C15",
+      "source_id": "S03",
+      "locator": "PubMed Abstract; Article §Results intestinal morphology; Fig.3",
+      "kind": "observation",
+      "statement": "2018 年研究指出，低蛋白／高纖維素配方的斑馬魚腸道較長，腸上皮表面積及細胞體積較大。",
+      "caveat": "研究觀察的是共同改變的配方；不等於纖維單獨造成，也不能推論比較健康。"
+    },
+    {
+      "id": "C16",
+      "source_id": "S03",
+      "locator": "PubMed Abstract; Article §Results digestive enzyme activity; Fig.4",
+      "kind": "observation",
+      "statement": "2018 年研究中，消化酵素活性呈現依酵素及配方而異的結果；部分酵素在中等蛋白／纖維配方組較高。",
+      "caveat": "不同酵素不能視為同一指標；酵素活性不等於直接測量營養吸收率。"
+    },
+    {
+      "id": "C17",
+      "source_id": "S03",
+      "locator": "Article §Introduction/Study design; S02 2022 §2 Introduction",
+      "kind": "caution",
+      "statement": "2018 年研究為 2022 年後續跨世代研究的前期研究，兩者有延續性的實驗族群與飲食設計。",
+      "caveat": "是兩篇不同文獻，但不得當成完全獨立的實驗重複驗證。"
+    },
+    {
+      "id": "C18",
+      "source_id": "S04",
+      "locator": "PubMed Abstract: study groups (1)–(4)",
+      "kind": "method",
+      "statement": "2021 年研究比較魚粉飼料、植物性蛋白飼料，以及幼魚期有無接觸植物蛋白的不同營養安排。",
+      "caveat": "研究問題是蛋白質來源及早期營養程式化，非纖維素含量的獨立操作。"
+    },
+    {
+      "id": "C19",
+      "source_id": "S04",
+      "locator": "PubMed Abstract: weight gain during PP challenge",
+      "kind": "observation",
+      "statement": "植物蛋白挑戰期，早期曾接觸植物蛋白的 NP-PP 組體重增加高於持續植物蛋白對照組及 NP-FM 組。",
+      "caveat": "只依 PubMed 摘要；不是所有組別中都一定最重，也不能推論人體營養規劃。"
+    },
+    {
+      "id": "C20",
+      "source_id": "S04",
+      "locator": "PubMed Abstract: gut microbiome differences",
+      "kind": "observation",
+      "statement": "2021 年研究觀察到不同實驗階段與處理組的腸道菌群存在差異，包括部分菌門相對豐度差異。",
+      "caveat": "摘要未提供每一菌門的完整統計與機制，不可推斷特定細菌造成體重改變。"
+    },
+    {
+      "id": "C21",
+      "source_id": "S05",
+      "locator": "eLife Abstract; Introduction: lysosome-rich enterocytes",
+      "kind": "background",
+      "statement": "斑馬魚腸道中的富溶小體腸上皮細胞（LREs）可攝入腸腔蛋白質，並參與細胞內消化。",
+      "caveat": "重點研究斑馬魚幼魚，不能把細胞功能直接等同成人類腸道每個階段。"
+    },
+    {
+      "id": "C22",
+      "source_id": "S05",
+      "locator": "eLife Abstract: live microscopy results",
+      "kind": "observation",
+      "statement": "2025 年研究使用活體成像發現，微生物存在時，LREs 攝入及分解蛋白質的速率較慢，相關消化機制基因表現也下降。",
+      "caveat": "實驗條件下的細胞層級觀察；不可簡化為有腸道菌對宿主一定有害。"
+    },
+    {
+      "id": "C23",
+      "source_id": "S05",
+      "locator": "eLife Abstract: custom diets and microbiome results",
+      "kind": "observation",
+      "statement": "在研究模型中，蛋白質缺乏配方配合受損的 LRE 蛋白質攝入功能，會改變腸道菌群組成。",
+      "caveat": "飲食、基因／細胞功能及微生物互相作用；不是纖維組別的直接比較。"
+    },
+    {
+      "id": "C24",
+      "source_id": "S05",
+      "locator": "eLife Introduction: zebrafish larval vs mammalian life stages",
+      "kind": "caution",
+      "statement": "LRE 的研究結果指出腸道菌與蛋白質吸收有雙向互動的可能機制，但研究生命階段與物種須分開解釋。",
+      "caveat": "不能以幼魚細胞研究直接證明成年人體的營養吸收效果。"
+    },
+    {
+      "id": "C25",
+      "source_id": "S06",
+      "locator": "Published article §Methods: fish diets (Gemma, ZIRC, Watts)",
+      "kind": "method",
+      "statement": "2023 年研究將斑馬魚分別長期飼養於 Gemma、ZIRC、Watts 三種不同實驗室飼料條件，觀察腸道菌群發展。",
+      "caveat": "這些是整體複合飼料，並非單獨調整纖維的受控試驗。"
+    },
+    {
+      "id": "C26",
+      "source_id": "S06",
+      "locator": "Published article §Results; Fig.3 alpha/beta diversity",
+      "kind": "observation",
+      "statement": "研究指出不同實驗室飼料與成年斑馬魚腸道菌群組成及多樣性指標的差異有關。",
+      "caveat": "菌相差異不等於健康更好；年齡及其他飼料成分亦要納入解釋。"
+    },
+    {
+      "id": "C27",
+      "source_id": "S06",
+      "locator": "Published article §Methods/Discussion: diet formulations",
+      "kind": "limitation",
+      "statement": "比較不同配方飼料時，即使腸道菌群有差異，也很難把變化直接歸因於單一蛋白質或纖維成分。",
+      "caveat": "本研究提供外部一致性脈絡，但不能用來證明 S02 的單一營養素因果機制。"
+    }
+  ]
+}

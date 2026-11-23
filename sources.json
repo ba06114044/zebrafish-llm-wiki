@@ -1,0 +1,77 @@
+{
+  "schema_version": "0.2",
+  "as_of": "2026-11-23",
+  "sources": [
+    {
+      "id": "S01",
+      "type": "official_science_article",
+      "title": "Fishing for Clues to Human Health: Tiny Zebrafish Give Big Insights",
+      "authors": "NIH News in Health",
+      "year": 2023,
+      "url": "https://newsinhealth.nih.gov/2023/04/fishing-clues-human-health",
+      "raw_path": "raw/S01_NIH_2023.url",
+      "snapshot_path": "raw/S01_NIH_2023_snapshot.md",
+      "status": "ingested_checked",
+      "notes": "官方科普資料；2026-11-23 已查核正文及 Why Study Zebrafish 段落；非營養介入原著"
+    },
+    {
+      "id": "S02",
+      "type": "peer_reviewed_original_research",
+      "title": "Sustained changes in digestive physiology and microbiome across sequential generations of zebrafish fed different diets",
+      "authors": "Samantha C. Leigh; Caitlyn Catabay; Donovan P. German",
+      "year": 2022,
+      "url": "https://doi.org/10.1016/j.cbpa.2022.111285",
+      "raw_path": "raw/S02_Leigh_2022.pdf",
+      "status": "ingested_checked",
+      "notes": "使用者提供 10 頁 PDF；主要核對 pp.1–4,6,8；DOI 10.1016/j.cbpa.2022.111285；CC BY-NC-ND 4.0"
+    },
+    {
+      "id": "S03",
+      "type": "peer_reviewed_original_research",
+      "title": "The effects of protein and fiber content on gut structure and function in zebrafish (Danio rerio)",
+      "authors": "Samantha C. Leigh; Bao-Quang Nguyen-Phuc; Donovan P. German",
+      "year": 2018,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28916914/",
+      "doi": "https://doi.org/10.1007/s00360-017-1122-5",
+      "raw_path": "raw/S03_source_extract.md",
+      "status": "ingested_checked",
+      "notes": "2018 original research: public author PDF text plus PubMed abstract and Table 3; DOI paper; related P generation feeding cohort to S02, not an independent replication"
+    },
+    {
+      "id": "S04",
+      "type": "peer_reviewed_original_research",
+      "title": "Nutritional Programming with Dietary Soybean Meal and Its Effect on Gut Microbiota in Zebrafish (Danio rerio)",
+      "authors": "Samuel Patula; Michal Wojno; Lee J Pinnell; et al.",
+      "year": 2021,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33761297/",
+      "doi": "https://doi.org/10.1089/zeb.2020.1952",
+      "raw_path": "raw/S04_source_extract.md",
+      "status": "ingested_checked",
+      "notes": "PubMed verified abstract and study groups; full text not independently retrieved in this run; only abstract-based claims"
+    },
+    {
+      "id": "S05",
+      "type": "peer_reviewed_original_research",
+      "title": "Protein absorption in the zebrafish gut is regulated by interactions between lysosome rich enterocytes and the microbiome",
+      "authors": "Childers et al.",
+      "year": 2025,
+      "url": "https://elifesciences.org/articles/100611",
+      "doi": "https://doi.org/10.7554/eLife.100611",
+      "raw_path": "raw/S05_source_extract.md",
+      "status": "ingested_checked",
+      "notes": "eLife journal version 2025, abstract + article discussion/results surfaced; larval LRE study; not a dietary fiber trial"
+    },
+    {
+      "id": "S06",
+      "type": "peer_reviewed_original_research",
+      "title": "Disentangling the link between zebrafish diet, gut microbiome succession, and Mycobacterium chelonae infection",
+      "authors": "Michael J. Sieler Jr. et al.",
+      "year": 2023,
+      "url": "https://link.springer.com/article/10.1186/s42523-023-00254-8",
+      "doi": "https://doi.org/10.1186/s42523-023-00254-8",
+      "raw_path": "raw/S06_source_extract.md",
+      "status": "ingested_checked",
+      "notes": "Final 2023 journal article; distinct experimental diets Gemma / ZIRC / Watts, entire formulas varied; prior preprint title is same study, not another source"
+    }
+  ]
+}
